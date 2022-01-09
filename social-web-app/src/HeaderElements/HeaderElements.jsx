@@ -6,13 +6,15 @@ export default class HeaderElements extends Component {
     render() {
         return (
             <div className='sec-wrapper'>
-                <div className='logo'>
-                    <a href='/profile'> <img className='logoimg' src={logo}/> </a>
-                </div>
 
-                <div className='logo-name'>
-                    <h1>Amöba</h1>
-                </div>
+                <a href="/profile">
+                    <div className='logo-name'>
+                        <img className='logoimg' src={logo}/>
+                        <h1>Amöba</h1>
+                        <img className='logoimg' src={logo}/>
+                    </div>
+                </a>
+
 
                 <div className='menu'>
 

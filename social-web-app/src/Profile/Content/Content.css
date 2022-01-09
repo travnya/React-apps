@@ -1,0 +1,15 @@
+.content {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.content img {
+    width: 10em;
+    border-radius: 35%;
+    border: 2px solid white;
+}
+
+.content p {
+    text-align: center;
+    margin-top: 0.5em;
+}
