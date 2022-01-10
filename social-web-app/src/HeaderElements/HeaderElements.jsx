@@ -14,8 +14,6 @@ export default class HeaderElements extends Component {
                         <img className='logoimg' src={logo}/>
                     </div>
                 </a>
-
-
                 <div className='menu'>
 
                 </div>
