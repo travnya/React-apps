@@ -12,7 +12,8 @@ export default class Sidebar extends Component {
                     <a href='/messages'><button type="button" className='btn btn-outline-light btn-5'>Сообщения</button></a>
                     <a href='/music'><button type="button" className='btn btn-outline-light btn-3'>Музыка</button></a>
                     <a href='/videos'><button type="button" className='btn btn-outline-light btn-4'>Видеозаписи</button></a>
-                </nav> 
+                    <a href='/settings'><button type="button" className='btn btn-outline-light btn-4'>Настройки</button></a>
+                </nav>
             </div>
         )
     }

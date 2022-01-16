@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../resources/amoeba.png'
+import logo from '../../resources/amoeba.png'
 import './HeaderElements.css'
 
 export default class HeaderElements extends Component {
