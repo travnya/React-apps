@@ -33,15 +33,10 @@ export default class Posts extends Component {
         })
     }
 
-    deletePost = (id) => {
-        this.setState( ({ posts }) => {
-            const idx = this.state.posts.findIndex((el) => el.id === id)
-            const newArray = [...posts]
-            newArray.splice(idx)
-            return {
-                posts: newArray
-            }
-        })
+    deletePost = () => {
+        return {
+            posts: this.state.posts.filter((id) => id !== id)
+        }
     }
 
     render() {
