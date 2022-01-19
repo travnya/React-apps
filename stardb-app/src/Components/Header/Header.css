@@ -3,14 +3,14 @@
 }
 
 ul.nav {
-    margin: 0 0 0 1em;
-    padding: .7em 0 0 0;
+    margin: 0 0 0 2em;
+    padding: 1em 0 0 0;
     list-style-type: none;
 }
 
 ul.nav li {
     display: inline;
-    font-size: 2rem;
+    font-size: 1.5em;
     margin: 0 0 0 .5em;
 }
 ul.nav a {
@@ -22,7 +22,7 @@ ul.nav a:hover {
     color: #cfee8f;
 }
 
-p {
+.header-wrapper p {
     margin: 0 0 0 1em;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }

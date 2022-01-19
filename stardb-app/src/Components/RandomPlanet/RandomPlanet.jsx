@@ -6,14 +6,14 @@ export default class RandomPlanet extends Component {
     render() {
         return (
             <div className='random-planet-wrapper'>
-                <img src='https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg' />
+                <img className='rand-img' src='https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg' />
                 <ul className='rndplanet'>
                     <p>Some Planet</p>
-                    <hr/>
+                        <hr/>
                     <li>Rotation Period: 24</li>
-                    <hr/>
+                        <hr/>
                     <li>Diameter: 154 km</li>
-                    <hr/>
+                        <hr/>
                     <li>Population: 12</li>
                 </ul>
             </div>

@@ -1,0 +1,26 @@
+.list-group-item{
+    background-color: #292929;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 1em;
+    width: 48%;
+}
+.item {
+    height: 3em;
+}
+.item:first-child {
+    border-radius: 1em 1em 0 0;
+}
+
+.item:last-child {
+    border-radius: 0 0 1em 1em;
+}
+
+.item p{
+    font-size: 1.75em;
+    margin: 0 0 0 1em;
+}
+
+.item:hover {
+    background-color: #444;
+}
