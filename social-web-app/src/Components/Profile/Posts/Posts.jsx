@@ -33,10 +33,10 @@ export default class Posts extends Component {
         })
     }
 
-    deletePost = () => {
-        return {
-            posts: this.state.posts.filter((id) => id !== id)
-        }
+    deletePost = (id) => {
+        this.setState({
+            posts: this.state.posts.filter((post) => post.id !== id)
+        })
     }
 
     render() {
@@ -53,7 +53,7 @@ export default class Posts extends Component {
                             type="button"
                             className='btn btn-outline-danger delete-btn'
                             title='Удалить пост'
-                            onClick={this.deletePost}/>
+                            onClick={() => this.deletePost(userPost.id)} />
                     </div>
                 ))}
             </div>
