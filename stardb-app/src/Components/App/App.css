@@ -1,4 +1,9 @@
 .main-container {
-    width: 60em;
+    width: 80em;
     margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
 }

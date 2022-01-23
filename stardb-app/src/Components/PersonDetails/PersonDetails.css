@@ -1,28 +1,39 @@
-.person-details-wrapper {
-    height: 16em;
+.person-details-wrapper, .change-hint-box {
+    height: fit-content;
     display: flex;
     background-color: #292929;
-    margin: 3em 0 2em 0;
-    border-radius: 1em;
+    margin: 0 0 1em 0;
+    border-radius: .5em;
+    border: 1px solid #444;
     padding: 1em;
+    width: 50%;
 }
 
-ul.person-details-list {
-    font-size: 1.7em;
-    width: 10em;
+.person-details-wrapper img {
+    height: 12em;
 }
 
-ul.person-details-list p {
-    margin: 0;
+.person-details-list {
     font-size: 1.5em;
+    width: fit-content;
+    margin-bottom: 0;
 }
 
-ul.person-details-list li {
-    margin: 0 0 0 1.25em;
+.person-details-list h4 {
+    margin: 0;
+    font-size: 1.75em;
+    width: auto;
+}
+
+.detail-item {
+    margin: .45em 0 0 1.25em;
     padding: 0;
     list-style-type: none;
+    border-top: 2px solid #444;
+    width: fit-content;
 }
 
-.person-details-list hr {
-    width: 10em;
+.change-hint {
+    font-size: 1.5em;
+    margin: auto auto;
 }

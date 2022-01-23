@@ -1,0 +1,21 @@
+.error-indicator {
+    margin: 0 auto;
+}
+
+.error-indicator span, .error-indicator p {
+    color: #ffde59;
+    display: block;
+    text-align: center;
+}
+
+.error-indicator p {
+    font-size: 1.25em;
+}
+
+.boom {
+    font-size: 3em;
+}
+
+.error-indicator img {
+    width: 10em;
+}

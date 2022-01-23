@@ -2,18 +2,28 @@
     background-color: #292929;
     cursor: pointer;
     padding: 0;
-    border-radius: 1em;
+    border-radius: .5em;
     width: 48%;
+    align-self: start;
 }
+
 .item {
     height: 3em;
+    border-bottom: 1px solid #444;
 }
+
 .item:first-child {
-    border-radius: 1em 1em 0 0;
+    border-radius: .5em .5em 0 0;
+    border-bottom: 1px solid #444;
 }
 
 .item:last-child {
-    border-radius: 0 0 1em 1em;
+    border-radius: 0 0 .5em .5em;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
 }
 
 .item p{

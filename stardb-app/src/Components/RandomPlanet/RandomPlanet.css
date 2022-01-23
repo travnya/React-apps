@@ -1,6 +1,6 @@
 .random-planet-wrapper {
     width: 100%;
-    height: 16em;
+    height: auto;
     display: flex;
     background-color: #292929;
     margin: 3em 0 2em 0;
@@ -8,27 +8,29 @@
     padding: 1em;
 }
 
-ul.rndplanet {
-    font-size: 1.7em;
-    width: 15em;
-}
-
-ul.rndplanet p {
-    margin: 0;
+.rndplanet {
     font-size: 1.5em;
+    width: max-content;
 }
 
-ul.rndplanet li {
-    margin: 0 0 0 1.25em;
+.rndplanet h4 {
+    margin: 0;
+    font-size: 1.75em;
+}
+
+.rndplanet li {
+    margin: .25em 0 0 1.25em;
     padding: 0;
     list-style-type: none;
-}
-
-hr {
-    margin: .2em 0 .2em 1em;
-    width: 10em;
+    border-top: 2px solid #444;
+    width: fit-content;
 }
 
 .rand-img {
     border-radius: 1em;
+    height: 12em;
+}
+
+.spinner {
+    margin: auto auto;
 }
