@@ -39,14 +39,13 @@ export default class PersonDetails extends Component {
 
         const { id, name, gender, birthYear, eyeColor } = this.state.person
 
-        if (!this.state.person) { 
+        if (!id) { 
             return ( 
                 <div className='change-hint-box'>
                     <span className='change-hint'>Select a person to see a full information</span>
                 </div>
             )
         }
-
         return (
             <div className='person-details-wrapper'>
                 <img src={`https://starwars-visualguide.com/assets/img/characters/${id}.jpg`}
