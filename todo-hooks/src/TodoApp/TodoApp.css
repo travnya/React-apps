@@ -1,0 +1,23 @@
+.item-delete {
+    cursor: pointer;
+    width: fit-content;
+    margin-left: 0;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.item-todo {
+    display: grid;
+    grid-template-columns: 1fr 2.5em;
+}
+
+.item-text {
+    grid-row: 1;
+    grid-column: 1;
+    width: fit-content;
+}
+
+.delete-btn {
+    width: 1.25em;
+    height: 1.5em;
+}

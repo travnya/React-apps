@@ -1,0 +1,12 @@
+.App {
+    margin: auto;
+    padding: .5em;
+    width: fit-content;
+    background-color: #444;
+    border-radius: 1em;
+}
+
+header {
+    margin: auto;
+    width: fit-content;
+}
